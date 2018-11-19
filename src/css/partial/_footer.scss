@@ -1,0 +1,56 @@
+
+.footer{
+    &__principal{
+        text-align: center;
+        background-color: $color-Mine-Shaft;
+        color: $color-White;
+        padding-bottom: 45px;
+        margin-bottom: 0;
+    } 
+
+    &__follow{
+        padding-top: 45px;
+        margin: 0;
+    }
+
+    &__text{
+        margin-top: 0;
+    }
+
+    &__link{
+        color: $color-White;
+    }
+
+    &__info{
+        margin-top: 70px;
+    }
+
+}
+
+.icons{
+   font-size: 30px; 
+   padding-right: 20px; 
+  
+   &__tw{
+      color: $color-DodgerBlue;
+   }
+
+   &__face{
+      color: $color-BlueGem;
+   }
+
+   &__insta{
+       color: $color-Meteorite;
+   }
+
+}
+
+.subscribe{
+    background: $color-Silver-Chalice;
+    padding: 18px 0 18px 10px;
+    letter-spacing: 2px;
+}
+
+button{
+    background: $color-Sunglow;
+}

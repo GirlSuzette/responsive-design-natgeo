@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato','Muli','Sans-serif';
+}
+
+a{
+    text-decoration: underline  $color-Sunglow;
+    margin-bottom: 10px;
+    color: $color-Black;
+}
+
+h1{
+     letter-spacing: 8px; 
+}
+
+h2{
+     letter-spacing: 3px;  
+}
+
+.fa.fa-bars{
+     font-size: 30px;
+     color: $color-Mine-Shaft;
+     padding-right: 20px;
+}
+
+.nav{
+
+    &__list{
+         display: flex;
+         align-items: flex-end;
+         justify-content: space-between;
+         list-style: none;
+         padding: 0px;
+    }
+
+    &__link{
+         display: none;
+    }
+
+    &__menu img{
+         width: 25%;
+        
+    }
+}

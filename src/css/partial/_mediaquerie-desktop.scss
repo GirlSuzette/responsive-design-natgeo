@@ -1,0 +1,51 @@
+@media screen and (min-width: 1024px) {
+
+    .main{
+        // width: 60%;
+         @include width (60%);
+         margin: 0 auto;
+    }
+
+    .fa.fa-bars {
+	     display: none;
+    }
+    
+   
+    .nav{
+        &__link{
+             display: inline-block;
+             padding: 5px 20px;
+             border-left: 1px solid;
+             border-color: $color-Sunglow;
+        }
+
+        &__link a{
+            text-decoration: none;
+            color: $color-Silver-Chalice;
+        }
+    }
+    
+    .article{
+         // width: 100%;
+         @include width (100%);
+    }
+
+    .footer{
+        
+        &__principal{
+             flex-wrap: wrap;
+             padding-bottom: 0;    
+         }
+
+         &__info{
+             width: 25%;
+             padding: 30px;
+             margin-top:0;
+             font-size: 11px;
+         }
+
+         &__follow{
+             padding-top: 0;
+         }
+    }
+}
